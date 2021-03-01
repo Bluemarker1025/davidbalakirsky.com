@@ -39,14 +39,32 @@ a {
 
 
   /* Polygon 1 */
-  #hexagon{
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  left: 424px;
-  top: 317px;
-  
-  background: #C4C4C4;
-  border: 2px solid #303030;
-  box-sizing: border-box;
+  hexagon {
+    width: 100px;
+    height: 57.735px;
+    background: red;
+    position: relative;
   }
+  #hexagon::before {
+    content: "";
+    position: absolute;
+    top: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid red;
+  }
+  #hexagon::after {
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid red;
+  }
+    
