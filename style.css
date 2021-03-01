@@ -1,6 +1,8 @@
 p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    background-color: green;
+    opacity: 0.3;
   }
   
   .w100 {
