@@ -57,5 +57,9 @@ a {
   
   .myDIV:hover + .hide {
     display: block;
-    color: white;
+    text-align: center;
+    font-size:40px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
   }
