@@ -36,3 +36,6 @@ a {
     margin-right: auto;
     width: 50%;
   }
+  .pictureContainer img {
+    transition: transform .2s ease-in-out;
+}
