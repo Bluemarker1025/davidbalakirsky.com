@@ -37,9 +37,8 @@ a {
     width: 50%;
   }
   .pictureContainer {
-    float: center;
+    
     height: 720px;
-    margin: 5px;
     overflow: hidden;
     width: 740px;
 }
