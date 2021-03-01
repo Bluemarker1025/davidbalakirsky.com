@@ -37,13 +37,11 @@ a {
     width: 50%;
   }
   .pictureContainer {
-    border: 1px solid #CCCCCC;
-    display: inline-block;
-    float: left;
-    height: 150px;
+    float: center;
+    height: 720px;
     margin: 5px;
     overflow: hidden;
-    width: 150px;
+    width: 740px;
 }
   .pictureContainer img {
     transition: transform .2s ease-in-out;
