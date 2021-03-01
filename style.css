@@ -51,15 +51,11 @@ a {
     top: -720px;
   }
 
-  #DivForHoverItem {
-    /*just so we can see it*/
-    height: 50px;
-    width: 300px;
-    background-color: rgb(48, 48, 48);
-}
-#HiddenText {
+  .hide {
     display: none;
-}
-#DivForHoverItem:hover #HiddenText {
-    display:block;
-}
+  }
+  
+  .myDIV:hover + .hide {
+    display: block;
+    color: white;
+  }
