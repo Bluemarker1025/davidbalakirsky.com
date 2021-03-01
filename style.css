@@ -1,5 +1,18 @@
 p {
-  text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
   font-size: 60px;
   margin-top: 0px;
-}
+  }
+  .w100 {
+    font-weight: 100;
+  }
+  .w200 {
+    font-weight: 200;
+  }
+  .w300 {
+    font-weight: 300;
+  }
+  .w400 {
+    font-weight: 400;
+  }
