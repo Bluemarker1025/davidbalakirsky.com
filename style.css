@@ -1,4 +1,8 @@
-p,a {
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+a {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
   }
