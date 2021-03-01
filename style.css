@@ -39,7 +39,7 @@ a {
 
 
   /* Polygon 1 */
-  hexagon {
+  #hexagon {
     width: 100px;
     height: 57.735px;
     background: red;
