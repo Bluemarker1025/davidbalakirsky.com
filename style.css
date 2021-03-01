@@ -36,6 +36,18 @@ a {
     margin-right: auto;
     width: 50%;
   }
+  .pictureContainer {
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    float: left;
+    height: 150px;
+    margin: 5px;
+    overflow: hidden;
+    width: 150px;
+}
   .pictureContainer img {
     transition: transform .2s ease-in-out;
-}
+  }
+  .pictureContainer img:hover {
+    transform: translate3d(0px, -740px, 0px);
+  }
